@@ -1,0 +1,362 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+	font-family: Century Gothic;
+}
+header{
+	margin:0px;
+	padding:0px;
+}
+* {
+box-sizing:border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+	float:left;
+	padding:15px;
+}
+
+.Degrade {
+	background-image:linear-gradient(#09AAC1, white);
+
+}
+.Logo{
+	margin:15px;
+}
+.Identification{
+	color:#FFFAFB;
+	font-size:10px;
+}
+
+.deco{
+	margin-left:25px;
+}
+
+ul{
+	list-style-type:none;
+	margin-left:0px;
+	padding-left:0px;
+	margin-top:0px;
+	padding-top:50px;
+	
+}
+.menu{
+	text-decoration: none;
+	font-size:30px;
+	margin:none;
+	padding:none;
+
+}
+.menuItem1{
+	color:#FF4A07;
+}
+.menuItem2{
+	color:#FF9F07;
+	margin-left:15px;
+}
+.searchbar{
+	background-image:url(images/icones/loupe.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-left:15px;
+	margin-left:15px;
+	margin-top:15px;
+
+}
+
+.msgCo{
+	font-size: 14px;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40%;
+}
+
+fieldset{
+	border:solid 2px #FF9F07;
+	margin-left:35px;
+	margin-right:35px;
+}
+
+input{
+	color:#FF9F07;
+	font-size:12px;
+	width:200px;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+select{
+	color:#FF9F07;
+	width:200px;
+}
+
+button{
+	border: 1px solid #FF9F07;
+    border-radius: 25px;
+	color:#FFFAFB;
+	height:35px;
+	width:100px;
+	background: linear-gradient(to bottom, #FFFAFB 0%, #FF9F07 100%);
+}
+
+.button{
+	border: 1px solid #FF9F07;
+    border-radius: 25px;
+	color:#FFFAFB;
+	height:35px;
+	width:100px;
+	background: linear-gradient(to bottom, #FFFAFB 0%, #FF9F07 100%);
+}
+
+.checkbox{
+	width:10px;
+	
+}
+
+.checkboxText{
+	color:#09AAC1;
+}
+
+.title1{
+	font-size:14px;
+}
+
+.title2{
+	font-size:10px;
+	color:#FF4A07;
+}
+
+.margin{
+	margin-top:20px;
+	margin-left:35px;
+}
+
+.noCiv{
+	width:75px;
+	margin-right:0px;
+}
+
+.rue{
+	width:120px;
+}
+
+.marginButton{
+	margin-left:475px;
+	margin-bottom:15px;
+}
+
+.flotte{
+	float:left;
+	padding:10px;
+	display:block;
+	height:145px;
+	width:182px;
+}
+
+.article{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FF9F07;
+	
+}
+
+.marge{
+	margin-right:5%;
+	margin-left:5%;
+	
+}
+
+.pad{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.titre{
+	color:#000000;
+	font-size:14px;
+}
+
+.text{
+	color:#000000;
+	font-size:12px;
+	margin-right:3%;
+}
+
+.tarif{
+	color:#09AAC1;
+	padding-right:25px;
+	font-size:12px;
+}
+
+.duree{
+	color:#FF9F07;
+	padding-right:25px;
+	font-size:12px;
+}
+
+.panier{
+	float: right;
+	height:25px;
+	width:25px;
+	margin-right:1%;
+	margin-top:2%;
+	opacity:0.5;
+}
+
+.panier:hover{
+	opacity:1;
+}
+
+.media{
+	float: right;
+	height:50px;
+	width:50px;
+	margin-right:1%;
+	margin-top:1%;
+	opacity:0.5;
+}
+
+.media:hover{
+	opacity:1;
+}
+
+.article:hover{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.titreRabais{
+	float:left;
+	padding-Left:10px;
+	padding-right:130px;
+	color:#FF4A07;
+}
+
+.rabais{
+	float:left;
+	/*padding-right:15px;*/
+	height:50px;
+	width:50px;
+}
+
+.nonselect{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+.select{
+	border-radius: 15px;
+	border: 5px solid #73AD21;
+}
+
+/*blue Cross*/
+
+.plusbleu{
+	font-size:40px;
+	font-weight: 600;
+	color:#09AAC1;
+}
+
+.loginForm{
+	border-style: none;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40%;
+}
+.noPass{
+	color:#FF4A07;
+}
+.loginNoMarge{
+	margin-left:0px;
+}
+.boutonRegister{
+	margin-left:15px;
+}
+.centerStuff{
+	width:38%;
+	float:left;
+	padding:15px;
+}
+
+
+/****DropDown****/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
