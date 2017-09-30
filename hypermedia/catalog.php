@@ -29,7 +29,7 @@
 			
 			
 				<?php
-				
+				//allo
 					require_once 'catalogFunction.php';
 					$test = new Catalog();
 					if($_SESSION['admin']==FALSE)
